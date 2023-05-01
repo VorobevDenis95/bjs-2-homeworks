@@ -21,6 +21,4 @@ function calculateTotalMortgage(percent, contribution, amount, countMonths) {
     const total = parseFloat((paymentMounth * countMonths).toFixed(2));
     return total;
   } 
-    return false;
-  }
- 
+}
